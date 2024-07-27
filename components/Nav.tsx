@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <div className="flex fixed flex-col top-0 w-screen backdrop-blur-2xl z-20">
       <div className="w-full bg-blue-400 text-sm text-center font-mono  md:p-2 flex items-center justify-center">
-        <p>🎁 Limited Time Offer: Use code "DEMO20OFF" for 20% off your first purchase! 🛍️</p>
+        <p>🎁 Limited Time Offer: Use code &quot;DEMO20OFF&quot; for 20% off your first purchase! 🛍️</p>
       </div>
       <Navbar height={5} className="">
         <NavbarBrand>
