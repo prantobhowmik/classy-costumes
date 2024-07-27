@@ -50,7 +50,7 @@ const Jewelery: React.FC = () => {
             buttonText="Add to bag"
             reviews={product.rating.count}
             rating={product.rating.rate} // Pass the rating value
-          />
+           id={product.id}/>
         ))}
       </div>
     </div>
