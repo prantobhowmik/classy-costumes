@@ -37,7 +37,7 @@ const Product: React.FC<ProductProps> = ({
 
   return (
     <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-200">
-      <Link href={`/product/${id}`} passHref>
+      <Link href={`/product/${id}`} >
         <img src={image} alt={title} className="w-52 h-52 object-cover rounded-md" />
       </Link>
       <h3 className="text-sm font-semibold text-gray-700 mt-3 text-center">{title?.substring(0, 25)}</h3>
