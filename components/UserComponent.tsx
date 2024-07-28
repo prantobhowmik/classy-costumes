@@ -1,13 +1,15 @@
 import React from "react";
 import {User} from "@nextui-org/react";
 
+const username = ""
+
 export default function UserComponent() {
   return (
     <User
         className="flex flex-col items-center justify-center -gap-5 font-bold pt-2"
       avatarProps={{
-        src: "https://i.pravatar.cc/150?u=a04258114e29026702d"
+        src: "https://www.researchgate.net/publication/256542851/figure/fig10/AS:668627976085514@1536424740865/Lena-Original-image-150-150-pixel-resolution.ppm"
       }}
-     name="Ms Lotifa"/>
+     name={username? username :"USER"}/>
   );
 }
