@@ -84,7 +84,7 @@ export default function Footer() {
                 <div className="text-white">
                   <p className="text-lg font-bold">{product.title?.substring(0,25)}</p>
                   <p className="text-sm mb-4">{product.description}</p>
-                  <a href="product/1" className="bg-indigo-600 text-white md:px-4 p-1 md:py-2 rounded hover:bg-indigo-500 transition duration-300">
+                  <a href="/product/1" className="bg-indigo-600 text-white md:px-4 p-1 md:py-2 rounded hover:bg-indigo-500 transition duration-300">
                     ${product.price.toFixed(2)} - Shop Now
                   </a>
                 </div>

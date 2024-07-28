@@ -1,5 +1,6 @@
 "use client";
 
+import {CartProvider} from "@/context/CartContext";
 import MenCollection from "@/components/MenCollection";
 import Intro from "@/components/Intro";
 import WomenCollection from "@/components/WomenCollection";
