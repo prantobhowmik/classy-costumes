@@ -45,7 +45,7 @@ const CartViewPage = () => {
     const { sessionId } = response.data;
 
     // Redirect to Stripe Checkout
-    const { error } = await stripe.redirectToCheckout({ sessionId });
+    const { error } = await stripe?.redirectToCheckout({ sessionId });
 
     if (error) {
       console.error("Error redirecting to checkout:", error);
