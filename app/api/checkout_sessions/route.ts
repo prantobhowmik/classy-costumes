@@ -10,7 +10,7 @@ export async function POST(request: Request) {
     console.log("Received data:", { amount, address, contact });
 
     const session = await stripe.checkout.sessions.create({
-      payment_method_types: ["card", contact, address],
+      payment_method_types: ["card"],
       line_items: [
         {
           price_data: {
