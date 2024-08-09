@@ -1,6 +1,6 @@
 // pages/cancel.js
 "use client"
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const Cancel = () => {
   const router = useRouter();
