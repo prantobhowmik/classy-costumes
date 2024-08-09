@@ -36,7 +36,7 @@ export async function POST(request: Request) {
       status: 200,
       headers: { "Content-Type": "application/json" },
     });
-  } catch (error) {
+  } catch (error : any) {
     console.error("Error creating Stripe Checkout Session:", error);
     return new Response(JSON.stringify({ error: error.message }), {
       status: 500,
