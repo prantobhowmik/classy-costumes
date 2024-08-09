@@ -24,8 +24,8 @@ export async function POST(request: Request) {
         },
       ],
       mode: "payment",
-      success_url: `${process.env.NEXT_PUBLIC_SITE_URL!}/success`,
-      cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL!}/cancel`,
+      success_url: `${process.env.NEXT_PUBLIC_SITE_URL!}success`,
+      cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL!}cancel`,
       metadata: {
         address,
         contact,
